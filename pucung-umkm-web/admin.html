@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Dashboard Admin UMKM</title>
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+  <header class="site-header">
+    <div class="container">
+      <a class="brand" href="index.html">UMKM Pucung</a>
+      <nav class="nav-menu">
+        <a href="index.html">Beranda</a>
+        <a href="peta.html">Peta UMKM</a>
+        <a href="ai-marketing.html">AI Marketing</a>
+        <a href="admin.html">Dashboard Admin</a>
+      </nav>
+    </div>
+  </header>
+
+  <main class="container">
+    <section class="page-heading">
+      <h1>Dashboard Admin</h1>
+      <p>Tambah, edit, dan hapus data UMKM secara lokal.</p>
+    </section>
+
+    <section class="admin-panel">
+      <form id="admin-form" class="admin-form">
+        <input type="hidden" id="umkm-id" value="" />
+        <label>Nama UMKM</label>
+        <input type="text" id="admin-name" required />
+        <label>Produk</label>
+        <input type="text" id="admin-product" required />
+        <label>Deskripsi</label>
+        <textarea id="admin-description" rows="3"></textarea>
+        <label>Kontak</label>
+        <input type="text" id="admin-contact" />
+        <label>Alamat</label>
+        <input type="text" id="admin-address" />
+        <label>Latitude</label>
+        <input type="number" id="admin-lat" step="0.000001" required />
+        <label>Longitude</label>
+        <input type="number" id="admin-lng" step="0.000001" required />
+        <label>Kategori</label>
+        <input type="text" id="admin-category" />
+        <button type="submit" class="btn btn-primary">Simpan UMKM</button>
+        <button type="button" id="reset-admin" class="btn btn-secondary">Reset</button>
+      </form>
+
+      <div class="admin-table">
+        <h2>Daftar UMKM</h2>
+        <table>
+          <thead>
+            <tr><th>Nama</th><th>Produk</th><th>Aksi</th></tr>
+          </thead>
+          <tbody id="admin-list"></tbody>
+        </table>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <p>Dashboard admin bersifat demo frontend. Untuk backend gunakan PHP + MySQL.</p>
+    </div>
+  </footer>
+
+  <script src="js/admin.js"></script>
+</body>
+</html>

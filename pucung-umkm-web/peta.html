@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Peta UMKM Desa Pucung</title>
+  <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" integrity="sha256-sA+e2hED0h67n4FFs2pcoNq0Ln8ML8pI3iVxP4cENRk=" crossorigin="" />
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+  <header class="site-header">
+    <div class="container">
+      <a class="brand" href="index.html">UMKM Pucung</a>
+      <nav class="nav-menu">
+        <a href="index.html">Beranda</a>
+        <a href="peta.html">Peta UMKM</a>
+        <a href="ai-marketing.html">AI Marketing</a>
+        <a href="admin.html">Dashboard Admin</a>
+      </nav>
+    </div>
+  </header>
+
+  <main class="container">
+    <section class="page-heading">
+      <h1>Peta Interaktif UMKM</h1>
+      <p>Temukan lokasi UMKM Desa Pucung dan klik marker untuk melihat detail.</p>
+    </section>
+
+    <section class="map-panel">
+      <div id="map" class="map-view"></div>
+      <aside class="map-sidebar">
+        <h2>Daftar UMKM</h2>
+        <ul id="umkm-list" class="umkm-list"></ul>
+      </aside>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <p>Integrasi Leaflet.js + Google Maps API untuk geocoding lokasi.</p>
+    </div>
+  </footer>
+
+  <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js" integrity="sha256-o9N1j7kNdqmMUMv2fnLY6MkmN7EhM4UqpzQ+nUDo8mM=" crossorigin=""></script>
+  <script src="js/map.js"></script>
+</body>
+</html>

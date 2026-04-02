@@ -1,0 +1,46 @@
+[
+  {
+    "id": "umkm-001",
+    "name": "Kue Tradisional Pucung",
+    "product": "Nagasari & Kue Lapis",
+    "description": "Menyediakan kue tradisional segar dengan bahan lokal. Cocok untuk oleh-oleh dan acara keluarga.",
+    "contact": "0812-3456-7890",
+    "address": "Jalan Raya Pucung No. 12",
+    "latitude": -7.398623,
+    "longitude": 110.598712,
+    "category": "Kuliner"
+  },
+  {
+    "id": "umkm-002",
+    "name": "Kerajinan Anyaman Pucung",
+    "product": "Tas Anyaman & Hiasan Dinding",
+    "description": "Karya kerajinan tangan dari bahan rotan dan bambu. Produk ramah lingkungan dan unik.",
+    "contact": "0813-9876-5432",
+    "address": "Dusun 3 Desa Pucung",
+    "latitude": -7.402120,
+    "longitude": 110.605330,
+    "category": "Kerajinan"
+  },
+  {
+    "id": "umkm-003",
+    "name": "Agro Herbal Pucung",
+    "product": "Teh Herbal & Minyak Atsiri",
+    "description": "Produk herbal berbahan alami desa Pucung untuk kesehatan dan kecantikan.",
+    "contact": "0812-1111-2222",
+    "address": "RT 02 RW 01 Desa Pucung",
+    "latitude": -7.401200,
+    "longitude": 110.603800,
+    "category": "Herbal"
+  },
+  {
+    "id": "umkm-004",
+    "name": "Warung Makan Ibu Sari",
+    "product": "Nasi Pecel & Sego Gudeg",
+    "description": "Warung makan rumahan yang menyajikan kuliner khas desa dengan cita rasa autentik.",
+    "contact": "0812-2222-3333",
+    "address": "Simpang Lima Desa Pucung",
+    "latitude": -7.399900,
+    "longitude": 110.600500,
+    "category": "Kuliner"
+  }
+]

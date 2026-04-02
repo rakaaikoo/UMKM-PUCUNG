@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>AI Digital Marketing</title>
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+  <header class="site-header">
+    <div class="container">
+      <a class="brand" href="index.html">UMKM Pucung</a>
+      <nav class="nav-menu">
+        <a href="index.html">Beranda</a>
+        <a href="peta.html">Peta UMKM</a>
+        <a href="ai-marketing.html">AI Marketing</a>
+        <a href="admin.html">Dashboard Admin</a>
+      </nav>
+    </div>
+  </header>
+
+  <main class="container">
+    <section class="page-heading">
+      <h1>AI Digital Marketing</h1>
+      <p>Generate caption promosi, ide konten, dan deskripsi produk secara otomatis.</p>
+    </section>
+
+    <section class="ai-panel">
+      <form id="marketing-form" class="ai-form">
+        <label for="business-name">Nama UMKM / Brand</label>
+        <input type="text" id="business-name" placeholder="Contoh: Toko Kue Pucung" required />
+
+        <label for="product-name">Nama Produk</label>
+        <input type="text" id="product-name" placeholder="Contoh: Brownies Cokelat" required />
+
+        <label for="product-benefit">Keunggulan Produk</label>
+        <textarea id="product-benefit" rows="4" placeholder="Contoh: rasa lembut, bahan lokal, harga terjangkau"></textarea>
+
+        <button type="submit" class="btn btn-primary">Generate Caption</button>
+      </form>
+
+      <div class="result-box" id="result-box">
+        <h2>Hasil Caption</h2>
+        <div id="caption-output" class="caption-output">Isi form di atas untuk membuat caption AI.</div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <p>Fitur AI sederhana untuk membantu digital marketing UMKM.</p>
+    </div>
+  </footer>
+
+  <script src="js/ai-tools.js"></script>
+</body>
+</html>
